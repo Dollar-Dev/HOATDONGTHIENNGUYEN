@@ -12,14 +12,8 @@
 	<?php include 'content/TopHeader.php'; ?>
 	<!-- Menu -->
 	<?php include 'content/Menu.php'; ?>
-	<div class="container mt-3">
-        <!-- Điều hướng -->
-		<?php include 'content/Dieuhuong_catagories.php'; ?>
-		<!-- Danh sách sản phẩm -->
-		<?php include 'content/Danhsachsanpham.php'; ?>
-		<!-- Phân trang -->
-		<?php include 'content/Phantrang.php'; ?>
-	</div>
+	<!-- Body -->
+	<?php include 'content/BodyCatagories.php';  ?>
 </div>
 <!-- Footer -->
 <?php include "content/Footer.php"; ?>		
