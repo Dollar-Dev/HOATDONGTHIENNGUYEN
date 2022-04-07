@@ -1,3 +1,6 @@
+<?php
+include 'config.php';
+?>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -9,14 +12,14 @@
 </head>
 <body>
     <!-- Top header -->
-    <?php include 'content/TopHeader.php'; ?>
+    <?php include content_path.'TopHeader.php'; ?>
     <!-- Menu -->
-    <?php include 'content/Menu.php'; ?>
-    <?php include 'content/BodyDetailPost.php'; ?> 
+    <?php include content_path.'Menu.php'; ?>
+    <?php include content_path.'BodyDetailPost.php'; ?> 
     <!-- Footer -->
-    <?php include 'content/Footer.php'; ?>
+    <?php include content_path.'Footer.php'; ?>
     <!-- Nút quay về đầu trang -->
-    <?php include 'content/Nutquayvetrangdau.php'; ?>
+    <?php include content_path.'Nutquayvetrangdau.php'; ?>
     <script src="vendor/js/jquery-3.3.1.min.js"></script>
     <script src="vendor/js/popper.min.js"></script>
     <script src="vendor/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>

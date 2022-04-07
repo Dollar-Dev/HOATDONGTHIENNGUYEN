@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -9,17 +10,11 @@
 </head>
 <body>
 	<!-- Top header -->
-	<?php include 'content/TopHeader.php'; ?>
+	<?php include content_path.'TopHeader.php'; ?>
 	<!-- Menu -->
-	<?php include 'content/Menu.php'; ?>
-	<div class="container mt-3">
-        <!-- Điều hướng -->
-		<?php include 'content/Dieuhuong_catagories.php'; ?>
-		<!-- Danh sách sản phẩm -->
-		<?php include 'content/Danhsachsanpham.php'; ?>
-		<!-- Phân trang -->
-		<?php include 'content/Phantrang.php'; ?>
-	</div>
+	<?php include content_path.'Menu.php'; ?>
+	<!-- Body -->
+	<?php include content_path.'BodyCatagories.php';  ?>
 </div>
 <!-- Footer -->
 <?php include "content/Footer.php"; ?>		
