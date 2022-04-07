@@ -14,110 +14,11 @@
 	<?php include 'content/Menu.php'; ?>
 	<div class="container mt-3">
         <!-- Điều hướng -->
-		<div class="row">
-			<div class="col-12">
-				<ul class="breadcrumb">
-					<li><a href="#">Hoạt động</a></li>
-					<li><a href="#">Chiến dịch tình nguyện hè</a></li>
-				</ul>
-			</div>
-			<div class="col-12">
-				<h4 class="font-weight-light text-search">Kết quả tìm kiếm cho 'thanh niên'</h4>
-			</div>
-		</div>
+		<?php include 'content/Dieuhuong_catagories.php'; ?>
 		<!-- Danh sách sản phẩm -->
-		<div class="row">
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 mb-3">
-				<div class="card w-100">
-					<img class="card-img-top" src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?">
-					<div class="card-body">
-						<h4 class="card-title">Để trở thành sinh viên năng động cần như thế nào?</h4>
-						<p class="card-time">10/10/2019 10:10</p>
-						<p class="card-text line-clamp-3">Bạn cần nắm bắt đúng thời cơ để trở thành những sinh viên năng động. Một người trẻ năng động sẽ có nhiều cơ hội để học hỏi thêm những điều mới mẻ và có ích cho bản thân. Hiện nay tại các trường Đại học – Cao đẳng đều có các hoạt động ngoại khóa vì thế sinh viên nên tận dụng cơ hội này để có thể chọn cho mình một hoạt động như: thể thao, câu lạc bộ học thuật…</p>						
-					</div>
-				</div>
-			</div>
-
-		</div>
+		<?php include 'content/Danhsachsanpham.php'; ?>
 		<!-- Phân trang -->
-		<div class="row mt-4">
-			<ul class="pagination justify-content-center w-100">
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">Trang trước</a></li>
-				<li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">Trang sau</a></li>
-			</ul>
-		</div>
+		<?php include 'content/Phantrang.php'; ?>
 	</div>
 </div>
 <!-- Footer -->
