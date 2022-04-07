@@ -24,49 +24,7 @@
 		<!-- Tiêu đề Hình ảnh hoạt động	 -->
 		<?php include 'content/Tieudehoatdong.php'; ?>
 		<!-- Slideshow hình ảnh-->
-		<div class="row">
-			<div class="col-md-12">
-				<div id="slideshowHinhAnh" class="carousel slide" data-ride="carousel">								  
-					<!-- The slideshow -->
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="row">
-								<div class="col">
-									<img src="img/hinh0.jpg" alt="Hình 0">
-								</div>
-								<div class="col">
-									<img src="img/hinh1.jpg" alt="Hình 1">
-								</div>
-								<div class="col">
-									<img src="img/hinh2.jpg" alt="Hình 2">
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row">
-								<div class="col">
-									<img src="img/hinh3.jpg" alt="Hình 3">
-								</div>
-								<div class="col">
-									<img src="img/hinh4.jpg" alt="Hình 4">
-								</div>
-								<div class="col">
-									<img src="img/hinh5.jpg" alt="Hình 5">
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>				  
-				<!-- Left and right controls -->
-				<a class="carousel-control-prev" href="#slideshowHinhAnh" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#slideshowHinhAnh" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
-			</div>
-		</div>
+		<?php include 'content/SlideAnh.php'; ?>
 		<!-- Tiêu đề Video hoạt động -->
 		<div class="row mt-4 mb-3">
 			<div class="col-12">
