@@ -9,56 +9,12 @@
 </head>
 <body>	
     <!-- Top header -->
-	<?php include 'TopHeader.php'; ?>
+	<?php include 'content/TopHeader.php'; ?>
 	<!-- Menu -->
-	<?php include 'Menu.php'; ?>
+	<?php include 'content/Menu.php'; ?>
 	<div class="container mt-4">
 		<!-- Slideshow + tin nóng -->
-		<div class="row">
-			<div class="col-md-9">
-				<div id="slideshow" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ul class="carousel-indicators">
-						<li data-target="#slideshow" data-slide-to="0" class="active"></li>
-						<li data-target="#slideshow" data-slide-to="1"></li>
-						<li data-target="#slideshow" data-slide-to="2"></li>
-						<li data-target="#slideshow" data-slide-to="3"></li>
-					</ul>				  
-					<!-- The slideshow -->
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="img/slide0.jpg" alt="Slide 0">
-						</div>
-						<div class="carousel-item">
-							<img src="img/slide1.jpg" alt="Slide 1">
-						</div>
-						<div class="carousel-item">
-							<img src="img/slide2.jpg" alt="Slide 2">
-						</div>
-						<div class="carousel-item">
-							<img src="img/slide3.jpg" alt="Slide 3">
-						</div>
-					</div>				  
-					<!-- Left and right controls -->
-					<a class="carousel-control-prev" href="#slideshow" data-slide="prev">
-						<span class="carousel-control-prev-icon"></span>
-					</a>
-					<a class="carousel-control-next" href="#slideshow" data-slide="next">
-						<span class="carousel-control-next-icon"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3 tinnong">
-				<h4 class="bg-danger text-white text-center p-1">Tin nóng</h4>
-				<ul>
-					<li><a href="#">Sau chuyến thiện nguyện: cho đi và nhận lại rất nhiều</a></li>
-					<li><a href="#">Người trẻ tình nguyện ra chăm chút từng góc đảo Hòn Cau</a></li>
-					<li><a href="#">Tình nguyện viên quốc tế học tiếng Việt, trồng cây xanh ở Việt Nam</a></li>
-					<li><a href="#">20 mùa hè xanh, bê tông hóa hàng trăm km đường xứ dừa Bến Tre</a></li>
-					<li><a href="#">Mùa yêu thương trên đất Lào</a></li>
-				</ul>
-			</div>
-		</div>	
+		<?php include 'content/SlideshowTinnong.php'; ?>
 		<!-- Bài viết mới nhất	 -->
 		<div class="row mt-4 mb-3">
 			<div class="col-12">
