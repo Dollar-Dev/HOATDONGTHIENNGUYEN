@@ -14,7 +14,7 @@
 	<?php include 'content/Menu.php'; ?>
 	<div class="container mt-4">
 		<!-- Slideshow + tin nóng -->
-		<?php include 'conten/SlideshowTinnong.php'; ?>
+		<?php include 'content/SlideshowTinnong.php'; ?>
 		<!-- Bài viết mới nhất	 -->
 		<div class="row mt-4 mb-3">
 			<div class="col-12">
