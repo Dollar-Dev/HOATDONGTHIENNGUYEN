@@ -26,13 +26,7 @@
 		<!-- Slideshow hình ảnh-->
 		<?php include 'content/SlideAnh.php'; ?>
 		<!-- Tiêu đề Video hoạt động -->
-		<div class="row mt-4 mb-3">
-			<div class="col-12">
-				<div class="title-section">
-					<h4 class="bg-danger p-3 text-white">Video hoạt động</h4>
-				</div>
-			</div>			
-		</div>
+		<?php include 'content/TieuDeVid.php'; ?>
 		<!-- Slideshow video-->
 		<div class="row">
 			<div class="col-md-12">
