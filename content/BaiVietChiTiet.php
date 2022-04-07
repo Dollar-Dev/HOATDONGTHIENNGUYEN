@@ -7,7 +7,7 @@ echo '<div class="col-lg-9 single-post">
 <span class="author"><i class="fas fa-user"></i>Sưu tầm</span> <span class="time"><i
 class="far fa-calendar-check"></i>27 Tháng Bảy, 2018</span>
 </div>
-    <!-- Nội dung bài viết -->';
-    include 'NoiDungBaiViet.php';
+<!-- Nội dung bài viết -->';
+include 'NoiDungBaiViet.php';
 echo '</div>';
 ?>
