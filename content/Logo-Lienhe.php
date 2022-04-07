@@ -1,5 +1,5 @@
 <?php
-echo "'<div class="col-lg-3">
+echo '<div class="col-lg-3">
 <div class="p-2 mr-auto">
     <img class="img-fluid" src="img/logo.png" alt="logo website">
     <div class="mt-3">
@@ -9,5 +9,5 @@ echo "'<div class="col-lg-3">
         Q.1, TP.HCM
     </div>
 </div>
-</div>";
+</div>';
 ?>

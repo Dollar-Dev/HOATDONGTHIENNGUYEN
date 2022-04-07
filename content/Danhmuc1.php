@@ -1,6 +1,6 @@
 <?php 
 echo
-"<div class="col-lg col-4">
+'<div class="col-lg col-4">
 	<h5>
 		Danh mục 1</h5>
 			<ul>
@@ -10,5 +10,5 @@ echo
 			<li>Danh mục 1.4</li>
 			<li>Danh mục 1.5</li>
 			</ul>
-</div>";
+</div>';
 ?>
