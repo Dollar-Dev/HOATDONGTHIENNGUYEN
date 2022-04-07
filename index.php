@@ -12,7 +12,6 @@
 	<?php include 'content/TopHeader.php'; ?>
 	<!-- Menu -->
 	<?php include 'content/Menu.php'; ?>
-
 	<div class="container mt-4">
 		<!-- Slideshow + tin nóng -->
 		<?php include 'conten/SlideshowTinnong.php'; ?>
