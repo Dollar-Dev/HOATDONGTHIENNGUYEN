@@ -30,7 +30,5 @@ echo
         </div>
     </nav>
 </div>
-</div>
-
-<div class="container mt-4">';
+</div>';
 ?>
