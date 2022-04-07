@@ -11,14 +11,24 @@
     <!-- Top header -->
     <?php include 'content/TopHeader.php'; ?>
     <!-- Menu -->
-    <?php include 'content/TopHeader.php'; ?>
+    <?php include 'content/Menu.php'; ?>
     <div class="container mt-3">
         <!-- Điều hướng -->
         <?php include 'content/DieuHuong.php'; ?>
         <!-- Bài viết chi tiết và bài viết liên quan -->
         <div class="row mt-3">
             <!--Bài viết chi tiết-->
-            <?php include 'BaiVietChiTiet.php'; ?>
+            <div class="col-lg-9 single-post">
+            <img src="img/tin1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?" class="post-thumb w-100">
+            <h1 class="title">
+            Để trở thành sinh viên năng động cần như thế nào?</h1>
+            <div>
+            <span class="author"><i class="fas fa-user"></i>Sưu tầm</span> <span class="time"><i
+            class="far fa-calendar-check"></i>27 Tháng Bảy, 2018</span>
+            </div>
+                <!-- Nội dung bài viết -->
+                <?php include 'content/NoiDungBaiViet.php'; ?>
+            </div>
             <!--Bài viết liên quan-->
             <div class="col-lg-3">
                 <div class="row mb-3">
