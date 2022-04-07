@@ -121,28 +121,7 @@
 	</div>
 </div>
 <!-- Footer -->
-<div class="footer mt-3 text-light">
-	<div class="container-fluid">
-		<div class="container">
-			<div class="row pt-3 pb-3">
-				<!-- Logo + liên hệ -->
-				<?php include 'content/Logo-Lienhe.php'; ?>
-				<!-- Danh mục 1 -->
-				<?php include "content/Danhmuc1.php"; ?>
-				<!-- Danh mục 2 -->
-				<?php include "content/Danhmuc2.php"; ?>
-				<!-- Danh mục 3 -->
-				<?php include "content/Danhmuc3.php"; ?>
-				<!-- Đóng góp -->
-				<div class="col-lg-3 text-right">
-					<textarea class="form-control" rows="4" id="comment" placeholder="Mời bạn đóng góp ý kiến"></textarea>
-					<button type="button" class="btn btn-warning mt-2 w-100">
-					Gửi</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include "content/Footer.php"; ?>		
 <!-- Nút quay về đầu trang -->
 <div class="btn-go-up">
 	<a href="#top-header" class="fas fa-arrow-circle-up"></a>
