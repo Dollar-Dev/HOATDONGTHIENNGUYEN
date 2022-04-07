@@ -15,8 +15,8 @@ echo
 	echo '<!-- Đóng góp -->';
 		include "content/Donggop.php";
 echo
-"</div>
+'</div>
 </div>
 </div>
-</div>";
+</div>';
 ?>
