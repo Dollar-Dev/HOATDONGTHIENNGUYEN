@@ -9,9 +9,9 @@
 </head>
 <body>
 	<!-- Top header -->
-	<?php include "connten/TopHeader.php"; ?>
+	<?php include 'content/TopHeader.php'; ?>
 	<!-- Menu -->
-	<?php include "content/Menu.php"; ?>
+	<?php include 'content/Menu.php'; ?>
 	<div class="container mt-3">
         <!-- Điều hướng -->
 		<div class="row">
