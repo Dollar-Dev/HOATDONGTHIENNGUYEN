@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -9,11 +10,11 @@
 </head>
 <body>
 	<!-- Top header -->
-	<?php include 'content/TopHeader.php'; ?>
+	<?php include content_path.'TopHeader.php'; ?>
 	<!-- Menu -->
-	<?php include 'content/Menu.php'; ?>
+	<?php include content_path.'Menu.php'; ?>
 	<!-- Body -->
-	<?php include 'content/BodyCatagories.php';  ?>
+	<?php include content_path.'BodyCatagories.php';  ?>
 </div>
 <!-- Footer -->
 <?php include "content/Footer.php"; ?>		
