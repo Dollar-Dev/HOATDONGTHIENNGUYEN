@@ -123,9 +123,7 @@
 <!-- Footer -->
 <?php include "content/Footer.php"; ?>		
 <!-- Nút quay về đầu trang -->
-<div class="btn-go-up">
-	<a href="#top-header" class="fas fa-arrow-circle-up"></a>
-</div>
+<?php include "content/Nutquayvetrangdau.php"; ?>
 <script src="vendor/js/jquery-3.3.1.min.js"></script>
 <script src="vendor/js/popper.min.js"></script>
 <script src="vendor/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
