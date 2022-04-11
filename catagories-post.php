@@ -9,21 +9,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- Top header -->
-	<?php include content_path.'TopHeader.php'; ?>
-	<!-- Menu -->
-	<?php include content_path.'Menu.php'; ?>
-	<!-- Body -->
-	<?php include content_path.'BodyCatagories.php';  ?>
-</div>
-<!-- Footer -->
-<?php include "content/Footer.php"; ?>		
-<!-- Nút quay về đầu trang -->
-<?php include "content/Nutquayvetrangdau.php"; ?>
-<script src="vendor/js/jquery-3.3.1.min.js"></script>
-<script src="vendor/js/popper.min.js"></script>
-<script src="vendor/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+	
 </body>
 </body>
 </html>
