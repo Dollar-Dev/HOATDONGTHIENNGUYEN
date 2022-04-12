@@ -1,6 +1,4 @@
-<?php
-include 'config.php';
-?>
+<?php include'config.php'; ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -11,6 +9,11 @@ include 'config.php';
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<?php include content_path.'container_index.php'; ?>
+<?php
+$isIndex=true;
+$isCatagories=false;
+$isDetail=false;
+include 'layout.php';
+?>
 </body>
 </html>
