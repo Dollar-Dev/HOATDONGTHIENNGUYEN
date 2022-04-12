@@ -11,6 +11,13 @@ include 'config.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php include content_path.'container_detail.php'; ?>
+<?php
+$isIndex=false;
+$isCatagories=false;
+$isDetail=true;
+include 'layout.php';
+?>
+
 </body>
 </html>
+
