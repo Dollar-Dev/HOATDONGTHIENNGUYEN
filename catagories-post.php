@@ -9,7 +9,13 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<?php include content_path.'container_catagories.php'; ?>
+<?php
+$isIndex=false;
+$isCatagories=true;
+$isDetail=false;
+include 'layout.php';
+?>
+
 </body>
 </body>
 </html>
