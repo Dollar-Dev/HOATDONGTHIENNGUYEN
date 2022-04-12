@@ -11,6 +11,6 @@ include 'config.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <?php include content_path.'container_detail.php'; ?>
 </body>
 </html>
